@@ -1,0 +1,16 @@
+﻿<Window x:Class="Tarea_1___Udemy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea_1___Udemy"
+       mc:Ignorable="d" Title="Generador de  respuestas" Height="450" Width="800">
+    <StackPanel>
+        <TextBox Margin="10" Name="txtQuestion" FontSize="24" Text="[Coloca aqui tu pregunta binaria (si/no)]" />
+
+        <Button Margin="10" Name="btnAswer" Click="BtnAswer_Click">Pregutar a C#</Button>
+        <TextBox Margin="10" Name="txtAnswer" FontSize="24" Foreground="Green" IsReadOnly="True">
+            [Aquí aparecerá tu respuesta]
+        </TextBox>
+    </StackPanel>
+</Window>
