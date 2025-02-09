@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen Final - Llegaron los aparatos", "Examen Final - Llegaron los aparatos\Examen Final - Llegaron los aparatos.csproj", "{5E835294-3F6B-4D1B-A73A-EB45A481D91B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E835294-3F6B-4D1B-A73A-EB45A481D91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E835294-3F6B-4D1B-A73A-EB45A481D91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E835294-3F6B-4D1B-A73A-EB45A481D91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E835294-3F6B-4D1B-A73A-EB45A481D91B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00FBBC23-9939-4802-951D-325A3E361919}
+	EndGlobalSection
+EndGlobal

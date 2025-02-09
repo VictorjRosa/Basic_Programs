@@ -1,0 +1,28 @@
+﻿<Window x:Class="Examen_Final___Llegaron_los_aparatos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Examen_Final___Llegaron_los_aparatos" 
+        mc:Ignorable="d" Background="Blue" WindowState="Maximized"
+        Title="Examen Final - Llegaron los aparatos" Height="1000" Width="400">
+    <StackPanel>
+        <Label Content="Nombre Aparato" Foreground="White" Margin="50 15 100 0" FontSize="16" HorizontalAlignment="Center" HorizontalContentAlignment="Center"/>
+        <TextBox Name="txtNombreAparato" MaxLength="20" Background="White" Foreground="Black" FontSize="15" Height="30" Width="210" Margin="10" HorizontalAlignment="Center"/>
+        <Label Content="Precio Aparato" Foreground="White" Margin="50 15 100 0" FontSize="16" HorizontalAlignment="Center" HorizontalContentAlignment="Center"/>
+        <TextBox Name="txtPrecioAparato" PreviewTextInput="NumberValidationTextBox" MaxLength="20" Background="White" Foreground="Black" FontSize="15" Height="30" Width="210" Margin="10" HorizontalAlignment="Center"/>
+        <Label Content="Tipo Aparato" Foreground="White" Margin="50 15 100 0" FontSize="16" HorizontalAlignment="Center" HorizontalContentAlignment="Center"/>
+        <ComboBox Name="cbbTipoAparato" Background="LightSalmon" Foreground="Black" FontSize="15" Height="30" Width="210" Margin="10" HorizontalAlignment="Center">
+            <ComboBoxItem Content="Cocina"/>
+            <ComboBoxItem Content="Comedor"/>
+            <ComboBoxItem Content="Baño"/>
+            <ComboBoxItem Content="Habitación"/>
+            <ComboBoxItem Content="Videojuegos"/>
+            <ComboBoxItem Content="Otros"/>
+        </ComboBox>
+        <Button Content="Guardar" Click="Button_Click" Margin="0 20 0 0" Height="20" Width="90" FontSize="13" Background="LightSalmon" Foreground="Black"/>
+        <ListView Name="lb_VerDatos" Height="150" Width="150" Margin="100 10 100 0" FontSize="12"></ListView>
+        <Label Content="Promedio" HorizontalAlignment="Center" Foreground="White" Margin="50 15 100 0" FontSize="16"/>
+        <Label Content="Promedio" HorizontalAlignment="Center" Name="lblPromedio" Foreground="White" Margin="50 15 100 0" FontSize="16"/>
+    </StackPanel>
+</Window>
